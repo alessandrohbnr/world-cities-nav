@@ -1,18 +1,19 @@
-.wc-navigation-item {
+.wc-nav-item {
   margin: 10px 25px;
 }
-.wc-navigation-item a {
-  color: #515154;
+.wc-nav-item a {
+  color: #86868b;
   font-size: 0.8em;
-  letter-spacing: 0.3px;
+  letter-spacing: 0.2px;
   text-decoration: none;
 }
 
-.wc-navigation-item a:hover {
+.wc-nav-item a:hover {
   color: #06c;
 }
 
-.wc-navigation-item a:active {
+.wc-nav-item a:active,
+.wc-nav-item.current a {
   color: #000;
 }
 
