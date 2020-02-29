@@ -1,0 +1,19 @@
+.wc-navigation-item {
+  margin: 10px 25px;
+}
+.wc-navigation-item a {
+  color: #515154;
+  font-size: 0.8em;
+  letter-spacing: 0.3px;
+  text-decoration: none;
+}
+
+.wc-navigation-item a:hover {
+  color: #06c;
+}
+
+.wc-navigation-item a:active {
+  color: #000;
+}
+
+

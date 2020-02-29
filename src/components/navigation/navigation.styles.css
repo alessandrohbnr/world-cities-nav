@@ -1,0 +1,26 @@
+.wc-navigation {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.wc-navigation-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-self: center;
+  border-bottom: 1px solid #d2d2d7;
+  margin: 0 auto;
+  list-style: none;
+  padding: 0 10px;
+}
+
+.wc-navigation-line {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 0;
+  border-bottom: 1px solid #000;
+  width: 10px;
+}
