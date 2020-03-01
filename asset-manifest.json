@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/world-cities-nav/static/css/main.9cc0e51d.chunk.css",
+    "main.js": "/world-cities-nav/static/js/main.fcca108e.chunk.js",
+    "main.js.map": "/world-cities-nav/static/js/main.fcca108e.chunk.js.map",
+    "runtime-main.js": "/world-cities-nav/static/js/runtime-main.40b32c5b.js",
+    "runtime-main.js.map": "/world-cities-nav/static/js/runtime-main.40b32c5b.js.map",
+    "static/js/2.f1dd7609.chunk.js": "/world-cities-nav/static/js/2.f1dd7609.chunk.js",
+    "static/js/2.f1dd7609.chunk.js.map": "/world-cities-nav/static/js/2.f1dd7609.chunk.js.map",
+    "index.html": "/world-cities-nav/index.html",
+    "precache-manifest.6d9ff742b9923d1914ab795c86386c3a.js": "/world-cities-nav/precache-manifest.6d9ff742b9923d1914ab795c86386c3a.js",
+    "service-worker.js": "/world-cities-nav/service-worker.js",
+    "static/css/main.9cc0e51d.chunk.css.map": "/world-cities-nav/static/css/main.9cc0e51d.chunk.css.map",
+    "static/js/2.f1dd7609.chunk.js.LICENSE.txt": "/world-cities-nav/static/js/2.f1dd7609.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.40b32c5b.js",
+    "static/js/2.f1dd7609.chunk.js",
+    "static/css/main.9cc0e51d.chunk.css",
+    "static/js/main.fcca108e.chunk.js"
+  ]
+}
