@@ -4,7 +4,7 @@ This projects creates a navigation menu with world cities as items made with Rea
 
 To see the project online check the [demo](https://alessandrohbnr.github.io/world-cities-nav/).
 
-## `Requisites`
+## Get Started
 
 Install [node](https://nodejs.org/en/download/) locally in your machine.
 After that runs `npm install` in the project folder to install the dependencies.
