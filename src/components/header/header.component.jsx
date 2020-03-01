@@ -4,7 +4,7 @@ import Navigation from '../navigation/navigation.component'
 
 import NavigationData from '../../utils/navigation.data.json'
 
-import './header.styles.css'
+import './header.styles.scss'
 
 const Header = () => (
   <header className="wc-header">

@@ -2,9 +2,10 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 import NavigationItem from '../navigation-item/navigation-item.component'
+import NavigationLine from './navigation-line.component';
 import { throttle } from 'lodash'
 
-import './navigation.styles.css'
+import './navigation.styles.scss'
 
 class Navigation extends React.Component {
   static propTypes = {
@@ -17,6 +18,7 @@ class Navigation extends React.Component {
 
   constructor(props) {
     super(props)
+
     this.state = {
       selectedItem: null,
       lineStyle: {}
@@ -48,9 +50,9 @@ class Navigation extends React.Component {
     })
   }, 200)
 
-  handleItemClick = (id, itemRef) => {
+  handleItemClick = (itemId, itemRef) => {
     this.setState({
-      selectedItem: id,
+      selectedItem: itemId,
       lineStyle: this.handleLineStyle(itemRef),
       selectedElm: itemRef
     })
@@ -73,9 +75,7 @@ class Navigation extends React.Component {
               isCurrent={this.isCurrentItem(section)} />
           ))}
         </ul>
-        <div className="wc-nav-line-container">
-          <span className="wc-nav-line" style={this.state.lineStyle}></span>
-        </div>
+        <NavigationLine position={this.state.lineStyle} />
       </nav>
     )
   }

@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-import './navigation-item.styles.css'
+import './navigation-item.styles.scss'
 
 class NavigationItem extends React.Component {
   static propTypes = {
@@ -19,7 +19,7 @@ class NavigationItem extends React.Component {
   
   handleClick = (id) => (e) => {
     e.preventDefault()
-
+  
     const { onClickItem } = this.props
 
     onClickItem && onClickItem(id, this.itemRef.current)

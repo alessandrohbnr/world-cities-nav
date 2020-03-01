@@ -1,0 +1,36 @@
+// Color Definitions
+$black: #000;
+
+$anchor-color-default: #86868b;
+$anchor-color-hover: #06c;
+$anchor-color-active: $black;
+
+.wc-nav-item {
+  margin: 0 25px;
+  
+
+  &.current a {
+    color: $anchor-color-active;
+
+    &:hover {
+      color: $anchor-color-active;
+    }
+  }
+
+  a {
+    color: $anchor-color-default;
+    display: inline-block;
+    font-size: 0.8em;
+    letter-spacing: 0.2px;
+    text-decoration: none;
+    padding: 5px 0;
+    
+    &:hover {
+      color: $anchor-color-hover;
+    }
+    
+    &:active {
+      color: $anchor-color-active;
+    }
+  }
+}
